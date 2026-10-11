@@ -85,11 +85,11 @@ export default function About() {
   transition={{ duration: 0.8 }}
   className="font-display text-5xl md:text-6xl leading-tight mb-10"
 >
-  Beyond the
-  <span className="italic text-neutral-400"> resume,</span>
-  <br />
-  here's how I
-  <span className="font-semibold"> build.</span>
+ Turning data
+<span className="italic text-neutral-400"> into insights,</span>
+<br />
+driving better
+<span className="font-semibold"> decisions.</span>
 </motion.h2>
 
 <motion.div
@@ -103,7 +103,7 @@ export default function About() {
 
 <p className="uppercase tracking-[0.35em] text-xs text-neutral-500 font-medium">
 
-AI • Software Engineering • Machine Learning
+DATA ANALYTICS • SQL • REPORTING
 
 </p>
 
@@ -152,6 +152,7 @@ duration-700
     "
 >
 </motion.p>
+
 <motion.p
   initial={{ opacity: 0, y: 20 }}
   whileInView={{ opacity: 1, y: 0 }}
@@ -169,17 +170,20 @@ duration-700
     antialiased
   "
 >
-  I enjoy transforming ideas into thoughtful digital products by combining
-  modern software engineering, artificial intelligence, and user-centered
-  design. Every project is an opportunity to create solutions that are
-  reliable, scalable, and built with purpose.
+  I am a 2026 BE CSE (AI & ML) graduate interested in
+  Data Analytics and data-driven problem-solving. I work
+  with SQL, Excel, Python, and data visualization to
+  explore data, identify trends, and generate meaningful insights.
 
   <div className="h-8"></div>
 
-  Currently expanding my expertise in Artificial Intelligence, Machine
-  Learning, and Full-Stack Development while building projects that reflect
-  real-world engineering practices and continuous technical growth.
+  I am continuously strengthening my analytical skills
+  through hands-on projects involving data analysis,
+  forecasting, and reporting, with a focus on turning
+  data into actionable business insights.
 </motion.p>
+
+  
 
             {/* Divider */}
 
@@ -225,7 +229,7 @@ duration-700
 >
 
   <p className="italic text-xl md:text-2xl text-neutral-800 font-light leading-relaxed">
-    "Great software isn't just built — it's carefully designed to solve real problems."
+    "Good decisions start with reliable data and meaningful insights."
   </p>
 
 </motion.div>
@@ -249,7 +253,7 @@ duration-700
     <div className="grid md:grid-cols-2 gap-5">
 
         {[
-            
+    
         ].map((skill, index) => (
 
             <motion.div

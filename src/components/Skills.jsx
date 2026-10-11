@@ -1,12 +1,23 @@
 import { motion } from 'framer-motion'
 
 const GROUPS = [
-  { label: 'Programming Languages', items: ['Java', 'Python', 'JavaScript', 'SQL'] },
-  { label: 'AI & ML', items: ['Machine Learning', 'NLP', 'Generative AI', 'Data Analysis'] },
-  { label: 'Web Development', items: ['React.js', 'Node.js', 'Express.js', 'FastAPI', 'REST APIs'] },
-  { label: 'Tools & Databases', items: ['MongoDB', 'MySQL', 'Git', 'GitHub', 'Streamlit', 'Power BI'] },
+  {
+    label: 'SQL & Databases',
+    items: ['SQL', 'MySQL', 'Joins', 'Subqueries', 'GROUP BY', 'Aggregations'],
+  },
+  {
+    label: 'Excel & Reporting',
+    items: ['Microsoft Excel', 'VLOOKUP', 'INDEX-MATCH', 'PivotTables', 'Data Reporting'],
+  },
+  {
+    label: 'Python & Data Analysis',
+    items: ['Python', 'Pandas', 'NumPy', 'Data Cleaning', 'Exploratory Data Analysis'],
+  },
+  {
+    label: 'Visualization & Tools',
+    items: ['Power BI', 'Data Visualization', 'KPI Reporting', 'MySQL Workbench', 'Git', 'GitHub'],
+  },
 ]
-
 export default function Skills() {
   return (
     <section id="skills" className="relative py-28 md:py-36">
@@ -49,9 +60,10 @@ export default function Skills() {
   transition={{ delay: .2 }}
   className="text-lg text-neutral-500 max-w-2xl mb-16 leading-8"
 >
-  Technologies I use to design, develop, and deploy intelligent software
-  solutions with a strong focus on AI, scalable backend systems, and modern
-  web applications.
+ Skills I use to explore data, identify trends, maintain data quality,
+and generate meaningful insights. I am strengthening my expertise
+in SQL, Excel, Python, and data visualization to support
+data-driven business decisions.
 </motion.p>
         
 

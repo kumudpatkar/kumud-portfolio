@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 
-const FULL_TEXT = 'Ready to collaborate on AI, ML, and Software Engineering opportunities.'
+const FULL_TEXT = 'Open to entry-level Data Analyst and Data Analytics opportunities.'
 
 const LINKS = [
   { label: 'Email', value: 'kumudpatkar6@gmail.com', href: 'mailto:kumudpatkar6@gmail.com' },
@@ -47,7 +47,7 @@ export default function Contact() {
           transition={{ duration: 0.7 }}
           className="font-display text-3xl md:text-4xl mb-12"
         >
-          Let&apos;s build something intelligent
+          Let&apos;s turn data into insights
         </motion.h2>
 
         <div className="grid md:grid-cols-[0.55fr_0.45fr] gap-8 items-stretch">
@@ -103,7 +103,7 @@ export default function Contact() {
               </span>
             </div>
             <p className="text-paper-dim/50">$ whoami</p>
-            <p className="mb-3">kumud_patkar &mdash; cs_engineer / ai_ml</p>
+            <p className="mb-3">kumud_patkar &mdash; aspiring_data_analyst</p>
             <p className="text-paper-dim/50">$ status</p>
             <p>
               <span className="text-blush">&gt;</span> {typed}

@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import ScrollIndicator from './ScrollIndicator.jsx'
 
 const STATS = [
+  { value: 'SQL', label: 'Data Querying' },
+  { value: '2026', label: 'Graduate' },
   { value: '3+', label: 'Projects' },
-  { value: '3+', label: 'Years Study' },
-  { value: '10+', label: 'Skills' },
 ]
 
 export default function Hero() {
@@ -25,9 +25,9 @@ export default function Hero() {
           </h1>
 
           <p className="font-mono text-xs md:text-sm uppercase tracking-[0.14em] text-ink-soft mb-6 border-l-2 border-blush pl-4">
-    BE.Computer Science Engineering 
-    <br />
-    AI &amp; Machine Learning • Full-Stack Development • Data Analytics
+    BE CSE (AI &amp; ML) • 2026 Graduate
+<br />
+Data Analytics • SQL • Excel • Python
 </p>
 
 <motion.p
@@ -47,16 +47,17 @@ export default function Hero() {
     antialiased
   "
 >
-  Computer Science Engineer specializing in Artificial Intelligence &amp;
-  Machine Learning, passionate about designing intelligent software that
-  transforms complex ideas into practical digital solutions.
+  I am a 2026 BE CSE (AI &amp; ML) graduate interested in
+  Data Analytics and data-driven problem-solving. I use SQL,
+  Excel, and Python to explore data, identify trends, and
+  generate meaningful insights.
 
   <br />
   <br />
 
-  Focused on building scalable applications, AI-powered systems, and
-  data-driven solutions with clean architecture, modern technologies,
-  and a user-first approach.
+  Through hands-on projects, I am building my skills in
+  data analysis, data cleaning, visualization, and reporting
+  to support better business decisions.
 </motion.p>
 
 
@@ -67,7 +68,7 @@ export default function Hero() {
               href="#projects"
               className="cursor-interactive inline-flex items-center gap-2 bg-ink text-paper px-6 py-3 font-mono text-xs uppercase tracking-[0.16em] hover:bg-blush-deep transition-colors duration-300"
             >
-              View My Work
+              View Data Projects
             </a>
             <a
               href="https://github.com/kumudpatkar"
@@ -78,8 +79,8 @@ export default function Hero() {
               GitHub ↗
             </a>
             <a
-  href="/Kumud_Satyawan_Patkar_Resume.pdf"
-  download="Kumud_Satyawan_Patkar_Resume.pdf"
+  href="/Kumud_Patkar_DA.pdf"
+  download="Kumud_Patkar_DA.pdf"
   className="cursor-interactive inline-flex items-center gap-2 px-2 py-3 font-mono text-xs uppercase tracking-[0.16em] text-ink-soft hover:text-blush-deep transition-colors duration-300 underline underline-offset-4"
 >
   Resume ↓
@@ -147,8 +148,8 @@ export default function Hero() {
           >
             <p className="font-mono text-[10px] uppercase tracking-[0.18em] leading-5">
   <span className="block font-semibold">
-    Software Engineer
-  </span>
+  Aspiring Data Analyst
+</span>
 
 </p>
           </motion.div>
